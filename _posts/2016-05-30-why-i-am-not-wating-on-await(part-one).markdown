@@ -3,6 +3,7 @@ layout: post
 title: "Why I\'m Not Waiting On \'await\' (part 1)"
 date: 2016-05-30 00:00:00 +0800
 categories: nodejs es7
+tags: [nodejs, javascript, es7, await, async]
 ---
 
 原文地址: [为何等不及用'await'](https://blog.getify.com/not-awaiting-1/?utm_source=javascriptweekly&utm_medium=email)
