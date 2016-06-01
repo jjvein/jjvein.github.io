@@ -32,10 +32,10 @@ Before a rejection is reported, an event is dispatched that you can listen to:
 
     window.addEventListener('unhandledrejection', event => ···);
 
-The event is an instance of PromiseRejectionEvent whose two most important properties are:
+The event is an instance of `PromiseRejectionEvent` whose two most important properties are:
 
-* promise: the Promise that was rejected
-* reason: the value with which the Promise was rejected
+* `promise`: the Promise that was rejected
+* `reason`: the value with which the Promise was rejected
 
 The following example demonstrates how this event works:
 
@@ -85,7 +85,7 @@ This code outputs:
     Reason: abc
     REJECTIONHANDLED
 
-解释： foo()调用时返回一个未被handledrejection， 通过setTimeout将catch操作放到下一个tick, 这样此处会被unhandledrejection 事件捕获，
+解释： foo()调用时返回一个未被handled 的rejection， 通过setTimeout将catch操作放到下一个tick, 这样此处会被unhandledrejection 事件捕获，
 nextTick捕获handledrejection, 此操作被rejectionhandled事件捕获。
 
 #### 1.3 Further reading
