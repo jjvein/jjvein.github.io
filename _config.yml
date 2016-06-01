@@ -14,7 +14,6 @@ description: > # this means to ignore newlines until "baseurl:"
   该Blog的文章有自己开发de心得， 有copy其他优秀文章，还有个人利用闲暇时间翻译的技术文档，若有侵权行为，请通知me。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jjvein.github.com" # the base hostname & protocol for your site
-twitter_username: jjvein
 github_username:  jjvein
 
 
