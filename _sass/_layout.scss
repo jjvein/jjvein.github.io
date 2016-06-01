@@ -187,6 +187,13 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+
+    .tag {
+      padding: 3px 5px; 
+      border: 1px solid #bbb;
+      border-radius: 5px;
+      background-color: #EEEEFF;
+    }
 }
 
 .post-link {
