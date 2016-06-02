@@ -19,3 +19,6 @@ github_username:  jjvein
 
 # Build settings
 markdown: kramdown
+
+tag_page_layout: post
+tag_page_dir: tag

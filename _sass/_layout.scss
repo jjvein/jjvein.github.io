@@ -194,6 +194,7 @@
       border-radius: 5px;
       background-color: #EEEEFF;
     }
+
 }
 
 .post-link {
@@ -208,6 +209,11 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    .icon--tags {
+      text-decoration: none;
+      padding: 3px;
+    }
 }
 
 .post-title {
