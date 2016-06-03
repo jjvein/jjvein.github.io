@@ -204,3 +204,12 @@ pre {
         }
     }
 }
+
+.a-tag {
+  padding: 3px;
+  color: #6a9fb5;  
+
+  &:hover {
+    color: #666;
+  }
+}
