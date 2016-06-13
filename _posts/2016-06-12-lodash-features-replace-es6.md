@@ -9,6 +9,7 @@ tags: [nodejs, lodash, arrow-function]
 
 ---
 
+## [10 Lodash Features You Can Replace With ES6](https://www.sitepoint.com/lodash-features-replace-es6/?utm_source=javascriptweekly&utm_medium=email)
 
 ### 1. Map, Filter, Reduce
 
