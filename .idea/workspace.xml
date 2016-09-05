@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76187ba1-db37-4fae-ae72-f385996839fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" afterPath="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" afterPath="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" />
     </list>
     <ignored path="jjvein.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-08-31-react.createclass-versus-extends-react.component.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-08-31-react.createclass-versus-extends-react.component.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-09-03-miaofengshan.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-09-03-miaofengshan.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="679">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3749">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -90,7 +90,7 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
+            <state relative-caret-position="5359">
               <caret line="233" column="15" selection-start-line="233" selection-start-column="15" selection-end-line="233" selection-end-column="15" />
               <folding />
             </state>
@@ -139,10 +139,10 @@
         <option value="$PROJECT_DIR$/_posts/travel/2015-09-26-yuyantang.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
-        <option value="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" />
         <option value="$PROJECT_DIR$/_posts/travel/2016-08-27-manshan-park.md" />
         <option value="$PROJECT_DIR$/_posts/2016-09-05-using-web-workers.md" />
         <option value="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" />
+        <option value="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" />
       </list>
     </option>
   </component>
@@ -182,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,7 +278,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,12 +362,13 @@
       <workItem from="1472628914015" duration="4557000" />
       <workItem from="1472801140655" duration="10901000" />
       <workItem from="1472957154969" duration="1852000" />
-      <workItem from="1473062675162" duration="2152000" />
+      <workItem from="1473062675162" duration="2222000" />
+      <workItem from="1473067517549" duration="1492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19462000" />
+    <option name="totallyTimeSpent" value="21024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1728" y="-517" width="1728" height="1384" extended-state="0" />
@@ -663,7 +664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3749">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -671,16 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
+        <state relative-caret-position="5359">
           <caret line="233" column="15" selection-start-line="233" selection-start-column="15" selection-end-line="233" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -705,6 +698,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
           <folding />
         </state>
       </provider>
