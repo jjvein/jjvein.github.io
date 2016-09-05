@@ -226,6 +226,13 @@
     }
 }
 
+.post-excerpt {
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    font:italic 400 14px arial,sans-serif;
+    color: #333;
+}
 .post-content {
     margin-bottom: $spacing-unit;
 
