@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76187ba1-db37-4fae-ae72-f385996839fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-09-05-using-web-workers.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/travel/2016-08-27-manshan-park.md" afterPath="$PROJECT_DIR$/_posts/travel/2016-08-27-manshan-park.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" afterPath="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" afterPath="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" />
     </list>
     <ignored path="jjvein.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-09-05-using-web-workers.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-09-05-using-web-workers.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-09-05-using-web-workers.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="437">
+              <caret line="19" column="598" selection-start-line="19" selection-start-column="598" selection-end-line="19" selection-end-column="598" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-08-31-react.createclass-versus-extends-react.component.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -99,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" />
         <option value="$PROJECT_DIR$/49-travel.html" />
         <option value="$PROJECT_DIR$/_posts/travel/2016-08-24-ride-bike-alone.md" />
         <option value="$PROJECT_DIR$/_posts/2016-08-27-manshan-park.md" />
@@ -137,6 +142,7 @@
         <option value="$PROJECT_DIR$/_posts/travel/2016-09-03-miaofengshan.md" />
         <option value="$PROJECT_DIR$/_posts/travel/2016-08-27-manshan-park.md" />
         <option value="$PROJECT_DIR$/_posts/2016-09-05-using-web-workers.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md" />
       </list>
     </option>
   </component>
@@ -356,12 +362,12 @@
       <workItem from="1472628914015" duration="4557000" />
       <workItem from="1472801140655" duration="10901000" />
       <workItem from="1472957154969" duration="1852000" />
-      <workItem from="1473062675162" duration="1931000" />
+      <workItem from="1473062675162" duration="2152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19241000" />
+    <option name="totallyTimeSpent" value="19462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1728" y="-517" width="1728" height="1384" extended-state="0" />
@@ -418,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -696,8 +695,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-09-05-using-web-workers.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="437">
+          <caret line="19" column="598" selection-start-line="19" selection-start-column="598" selection-end-line="19" selection-end-column="598" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-08-31-react.createclass-versus-extends-react.component.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
