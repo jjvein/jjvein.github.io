@@ -1,0 +1,124 @@
+---
+layout: post
+title: 高效 jQuery
+author: Scott Kosman
+category: js
+excerpt: 介绍几种快速提高jQuery效率的方法, 点点滴滴,注重细节, 让你的代码跑的飞起.
+tags: [javascript, jQuery, performance, 总结]
+---
+
+## 高效jQuery
+
+> With great power comes great responsibility.
+
+虽然jQuery可以让我们更加容易的编写JavaScript代码, 操作DOM元素, 但是性能也是需要考虑的.
+
+现在在Review代码时, 我们可以将侧重点放在: 低效的选择器, 事件绑定, dom操作.
+
+### 选择器优化
+
+不同选择器的效率差别是很大的: 例如
+
+    $('#id p');
+    $('#id').find('p');
+
+下面的选择器的效率比上面的快2倍不止.
+
+使用jQuery选择器的方式很多, 但常见的有以下5种, 我们按照快到慢的顺序列出来.
+
+    $('id');
+
+这种速度最快, 它直接调用浏览器的`document.getElementById()`方法. 如果可能的话, 尽可能在选择器前面加上id选择器来限制搜索区域.
+例如 `$('#id').find('p')`
+
+    $('p'); $('input'); $('form'); ...
+
+标签选择器速度也很快, 它同样也是调用native方法`document.getElementsByTagname()`
+
+    $('.class');
+
+对于现代浏览器来说, 它同样很快, 因为调用了native方法`document.getElementsByClassName()`. 但对于低版本浏览器效率很差.
+
+    $('[attribute=value]');
+
+属性选择器需要遍历整个dom文档, 虽然现代浏览器支持`querySelectorAll()`方法 , 但速度依然很慢.
+值得注意的是, Opera浏览器在执行该选择器时速度较其他选择器要快很多.
+
+    $(':hidden');
+
+伪类选择器需要遍历每一个dom元素, 速度较属性选择器更慢. 避免使用它. 如果不得不使用, 请限制区域如`$('#list').find(':hidden');`
+
+#### 链式
+
+几乎所有的jQuery方法返回jQuery对象. 这意味着你可以在函数返回的结果上继续执行其他的函数.
+WITHOUT CHAINING
+
+    $("#object").addClass("active");
+    $("#object").css("color","#f0f");
+    $("#object").height(300);
+
+WITH CHAINING
+
+    $("#object").addClass("active").css("color", "#f0f").height(300);
+
+链式调用能够缓存选择器的结果, 并且代码更少.
+
+#### 缓存
+
+像先前所说的, 缓存选择器. 每一次调用`$('.element');`都将会搜索整个DOM, 缓存之后则避免了重复搜索的性能消耗.
+例如你有一个`<ul id="blocks">`
+
+    var blocks = $('#blocks').find('li');
+    $("#hideBlocks").click(function() {
+        blocks.fadeOut();
+    });
+    $("#showBlocks").click(function() {
+        blocks.fadeIn();
+    });
+
+建议: 所以调用次数超过1次的选择器都应该被缓存起来.
+
+### 事件绑定
+
+事件监听会消耗内存. 对于复杂的网页, 页面存在大量的事件监听, 这时就可以使用jQuery的事件委托.
+对于页面上存在大量的表格元素时, 这种绑定方法极其低效.
+
+    $('table').find('td').click(function() {
+        $(this).toggleClass('active');
+    });
+
+jQuery1.7有个on 方法, 它是之前所有的事件监听的超集.
+
+    $('table').find('td').on('click',function() {
+        $(this).toggleClass('active');
+    });
+
+事实上, 这种方法依然为每个元素绑定了一个事件. 并没有真正做到事件委托的目的.
+
+    $('table').on('click','td',function() {
+        $(this).toggleClass('active');
+    });
+
+在table上绑定事件, 通过事件冒泡的机制来处理table内部所有的td.
+
+### DOM操作
+
+jQuery提供了非常简单的dom操作. 但要注意, 每次dom操作都会触发页面的repaint 和reflow. 尤其不要在 `for()`, `while()`, `$.each()` 上使用.
+Before
+
+    var arr = [reallyLongArrayOfImageURLs];
+    $.each(arr, function(count, item) {
+        var newImg = '<li><img src="'+item+'"></li>';
+        $('#imgList').append(newImg);
+    });
+
+After
+
+    var arr = [reallyLongArrayOfImageURLs],
+        tmp = '';
+    $.each(arr, function(count, item) {
+        tmp += '<li><img src="'+item+'"></li>';
+    });
+    $('#imgList').append(tmp);
+
+
