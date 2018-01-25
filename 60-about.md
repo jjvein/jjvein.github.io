@@ -5,8 +5,6 @@ date: 2016-05-29
 permalink: /about/
 ---
 
-
-
 <pre>
   <strong>夜雨寄北</strong>
   君问归期未有期，

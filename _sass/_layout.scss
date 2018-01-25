@@ -8,6 +8,11 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .inline-logo {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .site-title {
@@ -92,7 +97,15 @@
     }
 }
 
-
+.home {
+    .icon {
+        font-size: 14px;
+        display: inline-block;
+        border-radius: 4px;
+        background: #ffdddd;
+        padding: 2px 5px;
+    }
+}
 
 /**
  * Site footer

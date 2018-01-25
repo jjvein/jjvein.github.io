@@ -5,16 +5,18 @@ excerpt: 君问,君问归期未有期,jjvein,君问博客
 
 <div class="home">
 
-  <h1 class="page-heading">今夜有雨敲窗...</h1>
-
+  <h1 class="page-heading">生于忧患，死于安乐!</h1>
   <ul class="post-list">
     {% for post in site.posts limit: 10 %}
+      {% if post.category === %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <div class="post-excerpt">{{ post.excerpt }}</div>
+          {% for tag in post.tags limit: 5 %}
+          <span class="icon icon-tags">{% include icon-tags.html %}{{ tag }}</span>
+          {% endfor %}
         </h2>
       </li>
     {% endfor %}
