@@ -285,3 +285,23 @@
     }
 }
 
+.car-container {
+    list-style-type: none;
+
+    .car-item-container {
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 220px;
+        height: 250px;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
