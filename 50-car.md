@@ -1,12 +1,12 @@
 ---
 layout: page
-nickname: 技术
-title: 学, 无止境
-permalink: /tech/
+title: 心驰神往
+nickname: 爱车
+permalink: /car/
 ---
 
 {% for category in site.categories %}
-    {% if category.first == 'tech' %}
+    {% if category.first == 'car' %}
         <ul class="arc-list">
             {% for post in category.last %}
             <li>
