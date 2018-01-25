@@ -6,10 +6,65 @@ permalink: /resume/
 ---
 
 
-[TOC]
+# 李超
 
-# 介绍
+- 昵称: Jjvein(J文)
+- 大学: 天津大学-电子商务专业
+- 家乡: 安徽池州
+- 电话: (86+)173-1770-3010
+- 邮箱: [jjvein@gmail.com](mailto:jjvein@gmail.com)
 
-# 经验
+# Meituan
+职位: 前端工程师
+职级: p2.3(美团)
+部门: 北京平台事业群、上海餐饮生态事业群
+任职: 2015.7 ~ 至今
+
+- **“附近”Hybrid**
+    - 技术栈: `Koa`/ `React`/`web worker`
+    - 工作: ① 技术选型、功能实现 ② 实践大量通用网站优化方案  ③  针对项目特点做用户体验优化
+    - 优化量: 首字节时间降60ms/首屏时间降50ms/可交互时间降330ms/完全加载时间降1000ms
+- **“美团生活” & “美团点餐”**
+    - 技术栈: `微信小程序`
+    - 工作: ① 项目迭代管理工作 ②  项目性能优化与代码优化方案制定与实施  ③ 处理各种偶发线上问题
+    - 难点: 偶发问题的复现；升级问题等
+- **模拟用户操作**
+    - 技术栈: `vue`/`phantomjs`
+    - 工作: ①  搭建基于Vue的单页应用 ②  实现模拟用户操作
+- **单页应用“点评点餐”**
+    - 技术栈: `React`/`redux`/`Webpack`
+    - 工作: ① 遮罩组件/ 头部组件开发 ②  页面静态化方案
+- **美团I版**
+    - 技术栈: `Java`/`freemarker`/`zepto`
+    - 工作:  ① 迭代功能开发/线上问题处理 ②  引入CSP
+- **美团PC版**
+    - 技术栈: `php`/`handlebars`/`yui`
+    - 工作:  ① 迭代功能开发/线上问题处理 ②  前后端解构
+- **前端监控**
+    - 技术栈: `Elasticsearch`/`Koa`/`typescript`
+    - 工作: ① 调研FLEK技术架构，并推动实践 ②  处理项目中Node服务耗时、抖动、成功率低等问题 ③  对上报数据进行归类和报表处理 ④ 使用`Docker`搭建`Grafana`dashboard
+    - 难点: 数据指标采集、可用性、自动化兼容性测试方案
+- **Native开发**
+    - 技术栈: `android`/`Kotlin`/`shell`
+    - 工作: ① 参与排队App设置功能模块开发  ② 适配手机、平板、POS ③     使用Jenkins完成App自动打包，发布
+    - 亮点: 深入了解webview, JsBridge, 客户端兼容问题，mock方案等
+- **前端代码质量**
+    - 技术栈: `Python`/`Jenkins`/`Nuxt`
+    - 工作: ①  负责项目整体规划②  完成前端代码检查脚本  ③  部分`Nuxt `功能开发
+# 社区贡献
+* Github: [(https://github.com/jjvein)](https://github.com/jjvein)
+* Blog: [(http://www.jjvein.com/)](http://www.jjvein.com/)
+* CSDN: [(http://blog.csdn.net/lcstrive)](http://blog.csdn.net/lcstrive?ref=toolbar)
+
+# 个人总结
+
+> &emsp;个人经历了从PC页面到移动Web、Hybrid到Native、jQuery(zepto)到前端工程化/组件化、Javascript到Nodejs、前端到全栈、web到多端等；在技术的广度和深度、技术选型、项目管理等各方面都有长足进步, 我觉得保持技术新鲜度的同时不能丢掉前端基础支持。
+&emsp; 2018，希望能够接触到更大、更多的项目，让我更快的成长、成熟。
+
+
+
+
+
+
 
 
