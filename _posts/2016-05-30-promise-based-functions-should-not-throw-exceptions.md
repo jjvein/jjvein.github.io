@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Promise-based function should not throw exceptions
-categories:  nodejs es6
 date: 2016-05-31 19:00:00 +0800
 tags: [nodejs, promise, exception]
+category: tech
 ---
 
 [Promise based functiosn should not throw exceptions](http://www.2ality.com/2016/03/promise-rejections-vs-exceptions.html)

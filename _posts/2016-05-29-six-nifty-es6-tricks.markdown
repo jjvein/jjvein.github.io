@@ -2,8 +2,8 @@
 layout: post
 title:  Six nifty ES6 tricks
 date: 2016-05-30 00:00:00 +0800
-categories: nodejs es6
 tags: [es6, nodejs, javascript]
+category: tech
 ---
 
 [Six nifty ES6 tricks](http://www.2ality.com/2016/05/six-nifty-es6-tricks.html?utm_source=javascriptweekly&utm_medium=email)

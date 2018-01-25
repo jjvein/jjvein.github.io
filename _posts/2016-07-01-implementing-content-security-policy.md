@@ -2,7 +2,7 @@
 layout: post
 title: Implementing CSP
 tags: [csp, security]
-category: security
+category: tech
 author: April King, Stuart Colville
 ---
 ## [Implementing Content Security Policy](https://hacks.mozilla.org/2016/02/implementing-content-security-policy/)

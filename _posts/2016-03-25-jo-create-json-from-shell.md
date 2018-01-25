@@ -3,7 +3,7 @@ layout: post
 title: jo create json from shell
 author: Jjvein 
 excerpt: 命令行生成json, jo, shell
-category: tool
+category: tech
 tags: [json, shell]
 ---
 

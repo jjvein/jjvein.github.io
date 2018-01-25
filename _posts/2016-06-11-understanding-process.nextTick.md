@@ -2,7 +2,7 @@
 layout: post
 title: understanding process.nextTick
 date: 2016-06-11
-categories: nodejs process
+category: tech
 tags: [nodejs, process, nexttick]
 ---
 

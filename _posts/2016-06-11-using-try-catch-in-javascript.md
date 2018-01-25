@@ -1,7 +1,7 @@
 ---
 layout: post
 title: using try catch in javascript
-categories: nodejs exception
+category: tech
 autor: Jjvein
 tags: [nodejs, exception]
 excerpt: nodejs, try-catch when using javascript

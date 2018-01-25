@@ -2,7 +2,7 @@
 layout: post
 title: 10 Lodash features you can replace with es6
 excerpt: Lodash is the most depended on npm package right now, but if you’re using ES6, you might not actually need it. In this article, we’re going to look at using native collection methods with arrow functions and other new ES6 features to help us cut corners around many popular use cases.
-category: nodejs 
+category: tech
 author: Dan Prince
 date: 2016-06-12 07:00:00 
 tags: [nodejs, lodash, arrow-function]

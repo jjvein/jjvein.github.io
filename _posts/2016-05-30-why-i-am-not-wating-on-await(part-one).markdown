@@ -2,7 +2,7 @@
 layout: post
 title: "Why I\'m Not Waiting On \'await\' (part 1)"
 date: 2016-05-30 00:00:00 +0800
-categories: nodejs es7
+category: tech
 tags: [nodejs, javascript, es7, await, async]
 ---
 

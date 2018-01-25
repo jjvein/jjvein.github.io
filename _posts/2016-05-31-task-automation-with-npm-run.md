@@ -2,7 +2,7 @@
 layout: post
 title: task automation with npm run
 date: 2016-05-31 09:00:00 +0800
-category: npm
+category: tech
 tags: [npm]
 ---
 

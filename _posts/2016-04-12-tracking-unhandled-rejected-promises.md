@@ -3,8 +3,8 @@ layout: post
 title: Tracking unhandled rejected Promises
 date: 2016-04-12 08:00:00 +800
 excerpt: unhandledrejection, unhandledrejection事件,rejectionhandled,chrome 49+
-categories: nodejs exception
 tags: [nodejs, event, exception, unhandledrejection, rejectionhandled]
+category: tech
 ---
 
 [Tracking unhandled rejected Promises](http://www.2ality.com/2016/04/unhandled-rejections.html)

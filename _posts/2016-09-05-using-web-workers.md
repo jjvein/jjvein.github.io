@@ -2,7 +2,7 @@
 layout: post
 title: 使用Web Worker来加速JavaScript程序
 author: Matt West
-category: nodejs
+category: tech
 excerpt: 期待使用web worker来完成异步加载, 优化主程序UI卡顿问题.
 tags: [javascript, performance, 翻译]
 ---

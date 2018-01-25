@@ -2,7 +2,7 @@
 layout: post
 title: 高效 jQuery
 author: Scott Kosman
-category: js
+category: tech
 excerpt: 介绍几种快速提高jQuery效率的方法, 点点滴滴,注重细节, 让你的代码跑的飞起.
 tags: [javascript, jQuery, performance, 总结]
 ---
