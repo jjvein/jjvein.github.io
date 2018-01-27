@@ -283,6 +283,13 @@
             font-size: 18px;
         }
     }
+
+    .big-image {
+        display: inline-block;
+        margin: 0 auto;
+        width: 700px;
+        height: 400px;
+    }
 }
 
 .car-container {
@@ -305,3 +312,4 @@
         }
     }
 }
+
