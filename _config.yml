@@ -22,7 +22,5 @@ markdown: kramdown
 tag_page_layout: post
 tag_page_dir: tag
 
-remote_theme: "mmistakes/minimal-mistakes"
-
 plugins:
   - jekyll-toc
