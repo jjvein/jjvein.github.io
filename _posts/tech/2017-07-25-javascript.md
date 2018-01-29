@@ -19,6 +19,11 @@ The JavaScript number format allows you to exactly represent all integers betwee
 
 正负2的31次方
 
+## 闭包
+> 闭包是一个函数,捕获作用域内的外部绑定.
+闭包的基本原理: 如果一个函数包含内部函数, 那么它们都可以看到其中声明的变量; 这些变量被称为
+"自由变量", 这些变量可以被内部函数捕获, 从高阶函数中return实现了"越狱".
+
 ## web worker
 HTML5 提出Web Worker标准，允许JavaScript脚本创建多个线程，但是子线程完全受主线程控制，不得操作DOM。
 - 多个线程同时操作一个DOM节点容易造成混乱！
