@@ -70,15 +70,15 @@
         .menu-icon {
             display: block;
             float: right;
-            width: 36px;
-            height: 36px;
-            line-height: 36px;
-            vertical-align: bottom;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
             text-align: center;
 
             > svg {
                 width: 18px;
-                height: 15px;
+                height: 18px;
+                vertical-align: middle;
 
                 path {
                     fill: $grey-color-dark;
@@ -91,7 +91,7 @@
             display: none;
         }
 
-        &:hover .trigger {
+        .trigger.open {
             display: block;
             padding-bottom: 5px;
         }
@@ -103,7 +103,6 @@
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
         }
     }
 }
