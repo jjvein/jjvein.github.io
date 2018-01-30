@@ -90,26 +90,27 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 16px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
         .menu-icon {
             display: block;
             float: right;
-            width: 30px;
-            height: 30px;
-            line-height: 30px;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
             text-align: center;
+            background: url(/images/icon-menu.png) no-repeat;
+            background-size: cover;
+            vertical-align: middle;
 
             > svg {
                 width: 18px;
                 height: 18px;
                 vertical-align: middle;
-
+                color: #fff;
                 path {
                     fill: $grey-color-dark;
                 }
@@ -129,7 +130,6 @@
         .page-link {
             display: block;
             padding: 5px 10px;
-            color: $text-color;
 
             &:not(:last-child) {
                 margin-right: 0;
