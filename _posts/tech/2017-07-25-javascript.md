@@ -401,6 +401,12 @@ var ff = new f();
 ff.__proto__ == f.prototype; // true
 ```
 
+> 原型继承的好处
+- 不使用[父类]的构造方法就创造新的对象实例
+- 修改[父类]的prototype可以动态修改所有已经创建的实例
+- 可以动态修改一个对象的原型.
+
+
 ## react
 那么回到React本身，React的创新性和优点在哪里呢？我个人认为是其用嵌套的JavaScript对象来表示DOM结构，即Virtual DOM并通过Virtual DOM的渲染过程把DOM操作放到内存里，在这个过程还可以实现DOM diff算法和DOM的生命周期管理；
 

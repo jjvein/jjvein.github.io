@@ -9,6 +9,12 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
+    height: 400px;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    overflow: hidden;
+
     .inline-logo {
         width: 50px;
         height: 50px;
@@ -21,7 +27,7 @@
         line-height: 56px;
         font-size: 14px;
         text-shadow: #333 0 0 50px;
-        color: #000;
+        color: white;
         box-reflex: blow 10px;
     }
 }
@@ -33,7 +39,31 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-decoration: none;
 
+    .logo-font {
+        height: 40px;
+        display: inline-block;
+        box-sizing: border-box;
+        color: #fff;
+        font-size: 24px;
+        font-family: "Inconsolata", "Menlo", "Consolas", monospace;
+        border-bottom: 1px solid white;
+
+        &>i:first-child {
+            color: #ffbb42;
+        }
+        &>i:nth-child(2) {
+            color: #870038;
+        }
+        .anchor {
+            font-family: "American Typewriter";
+            font-size: 14px;
+            vertical-align: bottom;
+            color: #ffffff;
+        }
+
+    }
     &,
     &:visited {
         color: $grey-color-dark;
@@ -49,7 +79,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $header-text-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -99,6 +129,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            color: $text-color;
 
             &:not(:last-child) {
                 margin-right: 0;
