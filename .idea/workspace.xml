@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76187ba1-db37-4fae-ae72-f385996839fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon-menu.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-menu.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/icon-menu.html" afterPath="$PROJECT_DIR$/_includes/icon-menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/tech/2017-01-27-html.md" afterPath="$PROJECT_DIR$/_posts/tech/2017-01-27-html.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md" afterPath="$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
     </list>
     <ignored path="jjvein.github.io.iws" />
@@ -53,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-01-30-webpack.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-01-30-webpack.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -66,8 +64,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <first_editor relative-caret-position="393">
+                <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,8 +86,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <first_editor relative-caret-position="339">
+                <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -119,56 +117,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#414#464#0" expanded="false" />
-                <element signature="e#481#709#0" expanded="false" />
-                <element signature="e#1469#1509#0" expanded="false" />
-                <element signature="e#1582#1612#0" expanded="false" />
-                <element signature="e#1629#1842#0" expanded="false" />
-                <element signature="e#1793#1836#0" expanded="false" />
-                <element signature="e#2964#3124#0" expanded="false" />
-                <element signature="e#2976#3122#0" expanded="false" />
-                <element signature="e#3162#3240#0" expanded="false" />
-                <element signature="e#3258#3320#0" expanded="false" />
-                <element signature="e#3356#3401#0" expanded="false" />
-                <element signature="e#3423#3531#0" expanded="false" />
-                <element signature="e#3545#3640#0" expanded="false" />
-                <element signature="e#3656#3769#0" expanded="false" />
-                <element signature="e#3785#3898#0" expanded="false" />
-                <element signature="e#3914#4027#0" expanded="false" />
-                <element signature="e#4062#4375#0" expanded="false" />
-                <element signature="e#4101#4226#0" expanded="false" />
-                <element signature="e#4246#4373#0" expanded="false" />
-                <element signature="e#4408#4576#0" expanded="false" />
-                <element signature="e#4426#4574#0" expanded="false" />
-                <element signature="e#4618#4651#0" expanded="false" />
-                <element signature="e#4667#4691#0" expanded="false" />
-                <element signature="e#4704#4805#0" expanded="false" />
-                <element signature="e#4758#4803#0" expanded="false" />
-                <element signature="e#4818#5011#0" expanded="false" />
-                <element signature="e#4887#5008#0" expanded="false" />
-                <element signature="e#5024#5068#0" expanded="false" />
-                <element signature="e#5102#5206#0" expanded="false" />
-                <element signature="e#5155#5204#0" expanded="false" />
-                <element signature="e#5220#5361#0" expanded="false" />
-                <element signature="e#5327#5359#0" expanded="false" />
-                <element signature="e#5377#5504#0" expanded="false" />
-                <element signature="e#5519#6052#0" expanded="false" />
-                <element signature="e#5563#5678#0" expanded="false" />
-                <element signature="e#5632#5672#0" expanded="false" />
-                <element signature="e#5687#5802#0" expanded="false" />
-                <element signature="e#5756#5796#0" expanded="false" />
-                <element signature="e#5811#5926#0" expanded="false" />
-                <element signature="e#5880#5920#0" expanded="false" />
-                <element signature="e#5943#6050#0" expanded="false" />
-                <element signature="e#6069#6495#0" expanded="false" />
-                <element signature="e#6123#6493#0" expanded="false" />
-                <element signature="e#6423#6487#0" expanded="false" />
+                <element signature="e#546#774#0" expanded="false" />
+                <element signature="e#1534#1574#0" expanded="false" />
+                <element signature="e#1647#1677#0" expanded="false" />
+                <element signature="e#1694#1907#0" expanded="false" />
+                <element signature="e#1858#1901#0" expanded="false" />
+                <element signature="e#3029#3189#0" expanded="false" />
+                <element signature="e#3041#3187#0" expanded="false" />
+                <element signature="e#3227#3305#0" expanded="false" />
+                <element signature="e#3323#3385#0" expanded="false" />
+                <element signature="e#3421#3466#0" expanded="false" />
+                <element signature="e#3488#3596#0" expanded="false" />
+                <element signature="e#3610#3705#0" expanded="false" />
+                <element signature="e#3721#3834#0" expanded="false" />
+                <element signature="e#3850#3963#0" expanded="false" />
+                <element signature="e#3979#4092#0" expanded="false" />
+                <element signature="e#4127#4440#0" expanded="false" />
+                <element signature="e#4166#4291#0" expanded="false" />
+                <element signature="e#4311#4438#0" expanded="false" />
+                <element signature="e#4473#4641#0" expanded="false" />
+                <element signature="e#4491#4639#0" expanded="false" />
+                <element signature="e#4683#4716#0" expanded="false" />
+                <element signature="e#4732#4756#0" expanded="false" />
+                <element signature="e#4769#4870#0" expanded="false" />
+                <element signature="e#4823#4868#0" expanded="false" />
+                <element signature="e#4883#5076#0" expanded="false" />
+                <element signature="e#4952#5073#0" expanded="false" />
+                <element signature="e#5089#5133#0" expanded="false" />
+                <element signature="e#5167#5271#0" expanded="false" />
+                <element signature="e#5220#5269#0" expanded="false" />
+                <element signature="e#5285#5426#0" expanded="false" />
+                <element signature="e#5392#5424#0" expanded="false" />
+                <element signature="e#5442#5569#0" expanded="false" />
+                <element signature="e#5584#6117#0" expanded="false" />
+                <element signature="e#5628#5743#0" expanded="false" />
+                <element signature="e#5697#5737#0" expanded="false" />
+                <element signature="e#5752#5867#0" expanded="false" />
+                <element signature="e#5821#5861#0" expanded="false" />
+                <element signature="e#5876#5991#0" expanded="false" />
+                <element signature="e#5945#5985#0" expanded="false" />
+                <element signature="e#6008#6115#0" expanded="false" />
+                <element signature="e#6134#6560#0" expanded="false" />
+                <element signature="e#6188#6558#0" expanded="false" />
+                <element signature="e#6488#6552#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -393,12 +390,10 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_posts/tech/2017-11-21-quiz.md" />
-        <option value="$PROJECT_DIR$/_posts/tech/2017-01-27-html.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/asset/js/init.js" />
         <option value="$PROJECT_DIR$/_posts/tech/2016-10-11-jquery.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2017-07-25-javascript.md" />
-        <option value="$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md" />
         <option value="$PROJECT_DIR$/_sass/_base.scss" />
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
@@ -406,7 +401,9 @@
         <option value="$PROJECT_DIR$/_includes/icon-menu.svg" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/icon-menu.html" />
+        <option value="$PROJECT_DIR$/_posts/tech/2017-01-27-html.md" />
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md" />
       </list>
     </option>
   </component>
@@ -549,6 +546,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jjvein.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jjvein.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tech" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -734,12 +749,12 @@
       <workItem from="1516952678981" duration="4531000" />
       <workItem from="1516958750519" duration="3644000" />
       <workItem from="1517038244332" duration="4315000" />
-      <workItem from="1517053662196" duration="16734000" />
+      <workItem from="1517053662196" duration="19103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74355000" />
+    <option name="totallyTimeSpent" value="76724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1444" y="-86" width="1800" height="992" extended-state="0" />
@@ -1172,26 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/tech/2017-01-27-html.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1327,26 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1368,31 +1343,6 @@
         <state relative-caret-position="304">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/tech/2016-08-31-react.createclass-versus-extends-react.component.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1469,56 +1419,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/tech/2016-08-31-react.createclass-versus-extends-react.component.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/tech/2017-01-27-html.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="339">
+            <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="e#414#464#0" expanded="false" />
-            <element signature="e#481#709#0" expanded="false" />
-            <element signature="e#1469#1509#0" expanded="false" />
-            <element signature="e#1582#1612#0" expanded="false" />
-            <element signature="e#1629#1842#0" expanded="false" />
-            <element signature="e#1793#1836#0" expanded="false" />
-            <element signature="e#2964#3124#0" expanded="false" />
-            <element signature="e#2976#3122#0" expanded="false" />
-            <element signature="e#3162#3240#0" expanded="false" />
-            <element signature="e#3258#3320#0" expanded="false" />
-            <element signature="e#3356#3401#0" expanded="false" />
-            <element signature="e#3423#3531#0" expanded="false" />
-            <element signature="e#3545#3640#0" expanded="false" />
-            <element signature="e#3656#3769#0" expanded="false" />
-            <element signature="e#3785#3898#0" expanded="false" />
-            <element signature="e#3914#4027#0" expanded="false" />
-            <element signature="e#4062#4375#0" expanded="false" />
-            <element signature="e#4101#4226#0" expanded="false" />
-            <element signature="e#4246#4373#0" expanded="false" />
-            <element signature="e#4408#4576#0" expanded="false" />
-            <element signature="e#4426#4574#0" expanded="false" />
-            <element signature="e#4618#4651#0" expanded="false" />
-            <element signature="e#4667#4691#0" expanded="false" />
-            <element signature="e#4704#4805#0" expanded="false" />
-            <element signature="e#4758#4803#0" expanded="false" />
-            <element signature="e#4818#5011#0" expanded="false" />
-            <element signature="e#4887#5008#0" expanded="false" />
-            <element signature="e#5024#5068#0" expanded="false" />
-            <element signature="e#5102#5206#0" expanded="false" />
-            <element signature="e#5155#5204#0" expanded="false" />
-            <element signature="e#5220#5361#0" expanded="false" />
-            <element signature="e#5327#5359#0" expanded="false" />
-            <element signature="e#5377#5504#0" expanded="false" />
-            <element signature="e#5519#6052#0" expanded="false" />
-            <element signature="e#5563#5678#0" expanded="false" />
-            <element signature="e#5632#5672#0" expanded="false" />
-            <element signature="e#5687#5802#0" expanded="false" />
-            <element signature="e#5756#5796#0" expanded="false" />
-            <element signature="e#5811#5926#0" expanded="false" />
-            <element signature="e#5880#5920#0" expanded="false" />
-            <element signature="e#5943#6050#0" expanded="false" />
-            <element signature="e#6069#6495#0" expanded="false" />
-            <element signature="e#6123#6493#0" expanded="false" />
-            <element signature="e#6423#6487#0" expanded="false" />
+            <element signature="e#546#774#0" expanded="false" />
+            <element signature="e#1534#1574#0" expanded="false" />
+            <element signature="e#1647#1677#0" expanded="false" />
+            <element signature="e#1694#1907#0" expanded="false" />
+            <element signature="e#1858#1901#0" expanded="false" />
+            <element signature="e#3029#3189#0" expanded="false" />
+            <element signature="e#3041#3187#0" expanded="false" />
+            <element signature="e#3227#3305#0" expanded="false" />
+            <element signature="e#3323#3385#0" expanded="false" />
+            <element signature="e#3421#3466#0" expanded="false" />
+            <element signature="e#3488#3596#0" expanded="false" />
+            <element signature="e#3610#3705#0" expanded="false" />
+            <element signature="e#3721#3834#0" expanded="false" />
+            <element signature="e#3850#3963#0" expanded="false" />
+            <element signature="e#3979#4092#0" expanded="false" />
+            <element signature="e#4127#4440#0" expanded="false" />
+            <element signature="e#4166#4291#0" expanded="false" />
+            <element signature="e#4311#4438#0" expanded="false" />
+            <element signature="e#4473#4641#0" expanded="false" />
+            <element signature="e#4491#4639#0" expanded="false" />
+            <element signature="e#4683#4716#0" expanded="false" />
+            <element signature="e#4732#4756#0" expanded="false" />
+            <element signature="e#4769#4870#0" expanded="false" />
+            <element signature="e#4823#4868#0" expanded="false" />
+            <element signature="e#4883#5076#0" expanded="false" />
+            <element signature="e#4952#5073#0" expanded="false" />
+            <element signature="e#5089#5133#0" expanded="false" />
+            <element signature="e#5167#5271#0" expanded="false" />
+            <element signature="e#5220#5269#0" expanded="false" />
+            <element signature="e#5285#5426#0" expanded="false" />
+            <element signature="e#5392#5424#0" expanded="false" />
+            <element signature="e#5442#5569#0" expanded="false" />
+            <element signature="e#5584#6117#0" expanded="false" />
+            <element signature="e#5628#5743#0" expanded="false" />
+            <element signature="e#5697#5737#0" expanded="false" />
+            <element signature="e#5752#5867#0" expanded="false" />
+            <element signature="e#5821#5861#0" expanded="false" />
+            <element signature="e#5876#5991#0" expanded="false" />
+            <element signature="e#5945#5985#0" expanded="false" />
+            <element signature="e#6008#6115#0" expanded="false" />
+            <element signature="e#6134#6560#0" expanded="false" />
+            <element signature="e#6188#6558#0" expanded="false" />
+            <element signature="e#6488#6552#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/tech/2018-01-30-webpack.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="393">
+            <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

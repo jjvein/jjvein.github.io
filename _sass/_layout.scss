@@ -14,7 +14,9 @@
     background-size: cover;
     background-position: bottom center;
     overflow: hidden;
-
+    @include media-query($on-palm) {
+        height: 300px;
+    }
     .inline-logo {
         width: 50px;
         height: 50px;
