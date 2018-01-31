@@ -406,13 +406,6 @@ ff.__proto__ == f.prototype; // true
 - 修改[父类]的prototype可以动态修改所有已经创建的实例
 - 可以动态修改一个对象的原型.
 
-
-## react
-那么回到React本身，React的创新性和优点在哪里呢？我个人认为是其用嵌套的JavaScript对象来表示DOM结构，即Virtual DOM并通过Virtual DOM的渲染过程把DOM操作放到内存里，在这个过程还可以实现DOM diff算法和DOM的生命周期管理；
-
-### Provider
-Provider这个模块是作为整个App的容器，在你原有的AppContainer的基础上再包上一层，它的工作很简单，就是接受Redux的store作为props，并将其声明为context的属性之一，子组件可以在声明了contextTypes之后可以方便的通过this.context.store访问到store
-
 ## querystring
 解析cookie之类的，以后可以参考这种写法。
 
