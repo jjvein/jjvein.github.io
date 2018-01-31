@@ -13,7 +13,7 @@
  *   http://www.gnu.org/licenses/gpl.html
  */
 (function($) {
-    var toggleHTML = '<div id="toctitle"><h2>%1</h2> <span class="toctoggle">[<a id="toctogglelink" class="internal" href="#">%2</a>]</span></div>';
+    var toggleHTML = '<div id="toctitle"><h2>%1</h2> <span class="toctoggle"><a id="toctogglelink" class="internal" href="#">%2</a></span></div>';
     var tocContainerHTML = '<div id="toc-container"><table class="toc" id="toc"><tbody><tr><td>%1<ul>%2</ul></td></tr></tbody></table></div>';
 
     function createLevelHTML(anchorId, tocLevel, tocSection, tocNumber, tocText, tocInner) {
@@ -125,14 +125,14 @@
 
                 if (ul.is(':visible')) {
                     ul.hide();
-                    $(this).text(config.showText);
+                    $(this).html(config.showText);
                     if (config.saveShowStatus) {
                         $.cookie('toc-hide', '1', { expires: 365, path: '/' });
                     }
                     $('#toc').addClass('tochidden');
                 } else {
                     ul.show();
-                    $(this).text(config.hideText);
+                    $(this).html(config.hideText);
                     if (config.saveShowStatus) {
                         $.removeCookie('toc-hide', { path: '/' });
                     }

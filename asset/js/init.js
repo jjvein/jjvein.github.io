@@ -1,9 +1,9 @@
 (function($) {
     $('.post-content').toc({
         minItemsToShowToc: 2,
-        contentsText: "目录",
-        hideText: "隐藏",
-        showText: "展开"
+        contentsText: "",
+        hideText: "<img src='/images/menu-open.png' width='28px' height='28px' />",
+        showText: "<img src='/images/menu-close.png' width='28px' height='28px'/>"
     });
     var $menuIcon = $('.menu-icon');
     if ($menuIcon.length > 0) {

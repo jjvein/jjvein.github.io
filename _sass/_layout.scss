@@ -300,17 +300,31 @@
 }
 .post-content {
     margin-bottom: $spacing-unit;
+    h1 {
+        font-size: 28px;
+        @include media-query($on-laptop) {
+            font-size: 32px;
+        }
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background: url(/images/anchor.png);
+            background-size: cover;
+        }
+    }
 
     h2 {
-        font-size: 32px;
-
+        font-size: 24px;
         @include media-query($on-laptop) {
             font-size: 28px;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -318,7 +332,7 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 16px;
 
         @include media-query($on-laptop) {
             font-size: 18px;

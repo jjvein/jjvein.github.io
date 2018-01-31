@@ -6,6 +6,7 @@ excerpt:  Javascript 个人总结
 tags: [javascript, 总结]
 ---
 
+# Number
 ## Number 范围
 浮点数范围：
 
@@ -19,7 +20,24 @@ The JavaScript number format allows you to exactly represent all integers betwee
 
 正负2的31次方
 
-## 闭包
+> check a number
+```javascript
+function isNumber(n){
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+```
+
+> Js Number
+```javascript
+0.1 + 0.2 == 0.3 ?
++0 === -0 // true
+NaN === NaN // false
+Object.is(+0, -0) // false
+Object.is(NaN, NaN) // true
+Object.is(+NaN, -NaN) // true
+```
+
+# 闭包
 > 闭包是一个函数,捕获作用域内的外部绑定.
 闭包的基本原理: 如果一个函数包含内部函数, 那么它们都可以看到其中声明的变量; 这些变量被称为
 "自由变量", 这些变量可以被内部函数捕获, 从高阶函数中return实现了"越狱".
@@ -28,12 +46,43 @@ The JavaScript number format allows you to exactly represent all integers betwee
 HTML5 提出Web Worker标准，允许JavaScript脚本创建多个线程，但是子线程完全受主线程控制，不得操作DOM。
 - 多个线程同时操作一个DOM节点容易造成混乱！
 
+# async
 ## setTimeout
+
+> event table
 ```javascript
 setTimeout(() => console.log("3s后执行"), 3000);
 ```
-以上代码执行时，会将回调函数添加到`event table`中，3s以后会被推向`event loop`中，若此时主线程被block住，则`event loop`也无法立刻执行。
+以上代码执行时，会将回调函数添加到`event table`中，3s以后会被推向`event loop`中，
+若此时主线程被block住，则`event loop`也无法立刻执行。
 
+> 判断执行顺序
+```javascript
+function async() {
+	setTimeout(function() {
+		setTimeout(function() {
+			console.log(2);
+		}, 100);
+	}, 0);
+	setTimeout(function() {
+		console.log(1);
+	}, 100);
+}
+// 1, 2
+function async() {
+	setTimeout(function() {
+		setTimeout(function() {
+			console.log(2);
+		}, 100);
+	}, 0);
+	setTimeout(function() {
+		console.log(1);
+	}, 101);
+}
+// 这里不确定, 有可能是1, 2, 或者2, 1, 收到代码执行时间的影响.
+```
+
+# 正则
 ## 循环匹配
 ```javascript
 let pattern=/\b[a-z]+(\d+)/g // \b 匹配字符开始
@@ -47,33 +96,128 @@ while((match=pattern.exec(str)) !=null){
   ["q123", "123", index: 5, input: "p123 q123"]
 ```
 
-## 生成0-100之间的数组
+# array
+
+> 生成0-100之间的数组
 ```javascript
 var numbersArray = [] , max = 100;
-
 for( var i=1; numbersArray.push(i++) < max;);  // numbers = [1,2,3 ... 100]
 ```
 
-## trim
+> check array
+```javascript
+Object.prototype.toString.call([]);
+// => [object Array]
+```
+
+> copy an array
+```javascript
+var arr = [1, 2, 3];
+var b = arr.slice();
+var b = [...arr]; // as well
+```
+
+> Array.of vs Array.from
+```
+Array.of(7);
+var a = new Set(1, 3, 5);
+Array.from(a);
+```
+
+> Array.map
+```javascript
+[1, 2, 3].map(n => { number: n })
+// 将其解析为代码块；
+// [undefined, undefined, undefined]
+[1, 2, 3].map(n => ({ number: n }));
+```
+
+> Array.prototype.reduce
+```javascript
+var arr = [{
+  gender: 'man',
+  name: 'john'
+}, {
+  gender: 'woman',
+  name: 'mark'
+}, {
+  gender: 'man',
+  name: 'jerry'
+}];
+var filtered = arr.reduce((a, b) => {
+	if (b.gender != 'woman') return a.concat(b.name);
+	else return a;
+}, []);
+```
+
+> reduceRight
+```javascript
+let flattened = [[1,2], [2,3], [3, 4]].reduceRight((a, b) => a.concat(b.reverse()), []);
+```
+可以将数组从后往前拍平返回。
+
+> 稀疏数组
+```javascript
+Array.apply(null, Array(3)).map(Function.prototype.call.bind(Number))
+```
+
+
+## 数组去重
+
+> 解法一:
+```javascript
+var spread = [12, 5, 8, 8, 130, 44, 130];
+var filtered = spread.filter((item, index, arr) => {
+    return arr.indexOf(item) == index;
+});
+```
+
+> 解法二:
+```javascript
+var spread = [12, 5, 8, 8, 130, 44, 130];
+var filtered = [...new Set(spread)];
+```
+
+## swap
+```javascript
+let a = 1,
+    b = 2;
+[ a, b ] = [ b, a ];
+console.log(a);
+console.log(b);
+```
+
+## Map
+
+```javascript
+var map = new Map([[NaN, 1], [Symbol(), 2], [Symbol(), 3], ['foo', 'bar']]);
+console.log(map.has(NaN));
+console.log(map.has(Symbol()));
+// Map { NaN => 1, Symbol() => 2, 'foo' => 'bar', Symbol() => 3 }
+```
+
+## 判断数组
+```javascript
+var a = [];
+a instanceof Array;
+a.constructor === Array // true
+// 判断a的prototype
+Array.prototype.isPrototypeOf(a);  // true
+Object.getPrototypeOf(a) === Array.prototype; // true
+Object.prototype.toString.apply(a) === '[object Array]'; // true
+Array.isArray(a);
+```
+
+
+# string
+> trim
 ```javascript
 String.prototype.trim = function(){
     return this.replace(/^s+|s+$/g, "");
 };
 ```
 
-## check a number
-```javascript
-function isNumber(n){
-    return !isNaN(parseFloat(n)) && isFinite(n);
-}
-```
-
-## check array
-```javascript
-Object.prototype.toString.call([]);
-// => [object Array]
-```
-
+# typeof, instanceof, literal
 ## typeof
 `Boolean`、`String`、`Number`
 `Function`、`undefined`
@@ -99,112 +243,26 @@ String, Boolean, Array, Function, Object, Number
 
 First | Second | | Fourth |
 
-## Js Number
-```javascript
-0.1 + 0.2 == 0.3 ?
 
-+0 === -0 // true
-NaN === NaN // false
-
-Object.is(+0, -0) // false
-Object.is(NaN, NaN) // true
-Object.is(+NaN, -NaN) // true
-```
-
+# function
 ## () IIFE
+> 自执行
 ```javascript
 var f = (function f(){ return "1"; }, function g(){ return 2; })();
 typeof f; // number `f` is 2
 ```
 
-## object
+> 传参
 ```javascript
 (function(foo){
     return typeof foo.bar;
 })({ foo: { bar: 1 } });
 ```
 
-## geolocation
-```javascript
-// 一次更新
-navigator.geolocation.getCurrentPosition(updateLocation, handleLocationEror);
-function updateLocation(position) {
-    var latitude = position.coords.latitude;     // 纬度
-    var longitude = position.coords.longitude;   // 经度
-    var accuracy = position.coords.accuracy;     // 准确度
-    var timestamp = position.coords.timestamp;   // 时间戳
-}
-// 错误处理函数
-function handleLocationEror(error) {
-    ....
-}
-// 重复更新
-navigator.geolocation.watchPosition(updateLocation, handleLocationEror);
-// 不再接受位置更新
-navigator.geolocation.clearWatch(watchId);
-```
-
-## copy an array
-```javascript
-var arr = [1, 2, 3];
-var b = arr.slice();
-var b = [...arr]; // as well
-```
-
-## Array.of vs Array.from
-```
-Array.of(7);
-var a = new Set(1, 3, 5);
-Array.from(a);
-```
-
-## Array.map
-```javascript
-[1, 2, 3].map(n => { number: n })
-// 将其解析为代码块；
-// [undefined, undefined, undefined]
-[1, 2, 3].map(n => ({ number: n }));
-```
-
-## Array.prototype.reduce
-使用`reduce`方法完成过滤
-
-```javascript
-var arr = [{
-  gender: 'man',
-  name: 'john'
-}, {
-  gender: 'woman',
-  name: 'mark'
-}, {
-  gender: 'man',
-  name: 'jerry'
-}];
-var filtered = arr.reduce((a, b) => {
-	if (b.gender != 'woman') return a.concat(b.name);
-	else return a;
-}, []);
-```
-reduceRight
-
-```javascript
-let flattened = [[1,2], [2,3], [3, 4]].reduceRight((a, b) => a.concat(b.reverse()), []);
-```
-可以将数组从后往前拍平返回。
-
-## defineProperty
-```javascript
-const a = { b: 'c'}
-Object.defineProperty(a, 'visible', { enumerable: false, value: 'boo! ahhh!' })
-Object.assign({}, a);
-```
-
 ## GeneratorFunction
-`GeneratorFunction`不是一个全局对象，只能通过以下方式拿到：
-
+> `GeneratorFunction`不是一个全局对象，只能通过以下方式拿到：
 ```javascript
 Object.getPrototypeOf(function*(){}).constructor
-
 var gFC = Object.getPrototypeOf(function*(){}).constructor
 // 使用构造函数构造一个生成器函数
 var gF = new gFC(function() { yield 1});
@@ -212,66 +270,36 @@ var gen = gF(); // 生成构造器 Generator
 gen.next();
 ```
 
-判断是否是构造器
-
+> 判断是否是构造器
 ```javascript
 Object.prototype.toString.call(gFC) === "[Function GeneratorFunction]" ;
 ```
 
-判断是否为Generator
-
+> 判断是否为Generator
 ```javascript
 typeof gen.next === 'function'
 ```
 
+
+# Object
+## defineProperty
+```javascript
+const a = { b: 'c'}
+Object.defineProperty(a, 'visible', { enumerable: false, value: 'boo! ahhh!' })
+Object.assign({}, a);
+```
+
+
+
 ## destruct
 
 ```javascript
-let node = {
-        type: "Identifier"
-};
+let node = { type: "Identifier" };
 let { type: localType = 'foo', name: localName = 'bar' } = node;
-
 console.log(localType);
 console.log(localName);
 ```
 
-## 数组去重
-1
-
-```javascript
-var spread = [12, 5, 8, 8, 130, 44, 130];
-var filtered = spread.filter((item, index, arr) => {
-    return arr.indexOf(item) == index;
-});
-```
-
-2
-
-```javascript
-var spread = [12, 5, 8, 8, 130, 44, 130];
-var filtered = [...new Set(spread)];
-```
-
-## swap
-```javascript
-let a = 1,
-    b = 2;
-
-[ a, b ] = [ b, a ];
-
-console.log(a);
-console.log(b);
-```
-
-## Map
-
-```javascript
-var map = new Map([[NaN, 1], [Symbol(), 2], [Symbol(), 3], ['foo', 'bar']]);
-console.log(map.has(NaN));
-console.log(map.has(Symbol()));
-// Map { NaN => 1, Symbol() => 2, 'foo' => 'bar', Symbol() => 3 }
-```
 
 ## iterator
 
@@ -304,10 +332,7 @@ var name = 'World!';
 ```
 如果将`var` 换成 `let`， 得到的结果将完全不同，因为`let`不会发生变量名提升。
 
-## 稀疏数组
-```javascript
-Array.apply(null, Array(3)).map(Function.prototype.call.bind(Number))
-```
+
 
 ## String
 ```javascript
@@ -378,15 +403,6 @@ parseInt(3, 0) // 3
 [1] == 1 // true
 if ([0]) // true
 ```
-
-## arrow function
-ES6标准新增了一种新的函数：Arrow Function（箭头函数）。
-箭头函数与传统的JavaScript函数主要区别在于以下几点：
-
-1、对 this 的关联。函数内置 this 的值，取决于箭头函数在哪儿定义，而非箭头函数执行的上下文环境。
-2 、new 不可用。箭头函数不能使用 new 关键字来实例化对象，不然会报错。
-3、this 不可变。函数内置 this 不可变，在函数体内整个执行环境中为常量。
-4、没有arguments对象。更不能通过arguments对象访问传入参数。只能使用显式命名或其他ES6新特性来完成。
 
 ## 原型链
 ![prototype](/images/tech/prototype.jpg)
@@ -476,37 +492,6 @@ Child2.prototype = Object.create(Parent2.prototype);
 Child2.prototype.constructor = Child2;
 ```
 
-## deepCopy
-```javascript
-function deepCopy(p, c) {
-    if (!p || ['object', 'array'].indexOf(typeof p) < 0) return p;
-    var c = c || {};
-    for (var i in p) {
-        if (p[i] && typeof p[i] === 'object') {
-            c[i] = (p[i].constructor === Array) ? [] : {};
-            deepCopy(p[i], c[i]);
-        } else {
-            c[i] = p[i];
-        }
-    }
-    return c;
-}
-
-deepCopy({ name: 'JV', location: { province: 'AH', city: 'CHZ' } });
-```
-
-## 判断数组
-```javascript
-var a = [];
-a instanceof Array;
-a.constructor === Array // true
-// 判断a的prototype
-Array.prototype.isPrototypeOf(a);  // true
-Object.getPrototypeOf(a) === Array.prototype; // true
-Object.prototype.toString.apply(a) === '[object Array]'; // true
-Array.isArray(a);
-```
-
 ## microtask vs macrotask
 https://www.jianshu.com/p/3ed992529cfc
 执行的优先级：
@@ -523,29 +508,7 @@ microtasks: process.nextTick, Promises, Object.observe, MutationObserver
 - 所有的代码是`macrotask queue`的第一个任务；代码执行完之后，分别在`macrotask queue`和`microtask queue`中注册了任务
 - 调用`microtask queue`中的所有任务。
 
-## compose
-组合函数，将函数串联起来执行。
 
-```javascript
-function compose(...args) {
-    var len = args.length;
-    var index = len;
-    while(index--) { // while index then index = index - 1
-        if (typeof args[index] !== 'function') {
-            throw new TypeError("Excepted a function");
-        }
-    }
-
-    return function(...args1) {
-        var index = 0;
-        var result = len ? args[index].apply(this, args1) : args[0];
-        while(++index < len) {
-            result = args[index].call(this, result);
-        }
-        return result;
-    }
-}
-```
 
 
 
