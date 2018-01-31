@@ -32,6 +32,16 @@
         color: white;
         box-reflex: blow 10px;
     }
+
+    .center {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #eeeeee;
+        font-size: 28px;
+    }
 }
 
 .site-title {
@@ -51,7 +61,6 @@
         font-size: 24px;
         font-family: "Inconsolata", "Menlo", "Consolas", monospace;
         border-bottom: 1px solid white;
-
         &>i:first-child {
             color: #ffbb42;
         }
@@ -285,7 +294,7 @@
 .post-excerpt {
     background: #eee;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
     font:italic 400 14px arial,sans-serif;
     color: #333;
 }
