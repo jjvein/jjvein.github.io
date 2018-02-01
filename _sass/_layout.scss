@@ -233,7 +233,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 10px 0;
 }
 
 .page-heading {
@@ -273,8 +273,6 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
-
     .icon--tags {
       padding: 3px;
       color: #6a9fb5;

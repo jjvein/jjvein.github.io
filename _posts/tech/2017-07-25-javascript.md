@@ -228,7 +228,7 @@ Array、Date、
 ## Literal
 String, Boolean, Array, Function, Object, Number
 
-| Explicit(Bad)     |    Literal(Good)
+| Explicit(Bad)     |    Literal(Good) |
 | :-------- | :--------|
 | `var a = new Object(); a.gree = "hello"`  | `var a = { greet: "hello"` |
 | `var b = new Boolean(true);`     |    `var b = true; `|
