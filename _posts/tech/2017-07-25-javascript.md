@@ -238,12 +238,6 @@ String, Boolean, Array, Function, Object, Number
 | `var f = new Number(1.2);` | `var f = 1.2l` |
 
 
-| First cell|Second cell|Third cell
-| First | Second | Third |
-
-First | Second | | Fourth |
-
-
 # function
 ## () IIFE
 > 自执行
