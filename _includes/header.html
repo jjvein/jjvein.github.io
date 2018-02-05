@@ -1,18 +1,19 @@
 <header class="site-header">
-
-  <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/"><span class="logo-font"><i>J</i><i>V</i><i class="anchor">design</i></span></a>
-    <!--<span class="site-tone">Talk is cheap, show me the code.</span>-->
-    <nav class="site-nav">
-      <i class="menu-icon"></i>
-      <div class="trigger">
-        {% for my_page in site.pages %}
+  <div class="header-bar">
+    <div class="wrapper">
+      <a class="site-title" href="{{ site.baseurl }}/"><span class="logo-font"><i>J</i><i>V</i><i class="anchor">design</i></span></a>
+      <!--<span class="site-tone">Talk is cheap, show me the code.</span>-->
+      <nav class="site-nav">
+        <i class="menu-icon"></i>
+        <div class="trigger">
+          {% for my_page in site.pages %}
           {% if my_page.nickname %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.nickname }}</a>
           {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
+          {% endfor %}
+        </div>
+      </nav>
+    </div>
   </div>
-  <div class="center">All men are mortal.</div>
+  <div class="center">Winner Winner Chicken Dinner! </div>
 </header>
