@@ -276,26 +276,33 @@ typeof gen.next === 'function'
 
 
 # Object
+
 ## defineProperty
 ```javascript
 const a = { b: 'c'}
 Object.defineProperty(a, 'visible', { enumerable: false, value: 'boo! ahhh!' })
 Object.assign({}, a);
 ```
-
-
-
 ## destruct
-
 ```javascript
 let node = { type: "Identifier" };
 let { type: localType = 'foo', name: localName = 'bar' } = node;
 console.log(localType);
 console.log(localName);
 ```
+## 类型判断
+```javascript
+// cof.js
+var toString = {}.toString;
+module.exports = function(it) {
+    return toString.call(it).slice(8, -1);
+}
+// 调用
+var toString = require('./cof.js');
+toString([]) === 'Array' // true
+```
 
-
-## iterator
+# iterator
 
 ```javascript
 function *createIterator() {
@@ -304,9 +311,7 @@ function *createIterator() {
     yield 2;
     yield 3;
 }
-
 let iterator = createIterator();
-
 console.log(iterator.next());
 console.log(iterator.next());
 ```
