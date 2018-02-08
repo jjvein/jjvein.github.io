@@ -5,7 +5,6 @@
 .header-bar {
     background: rgba(33, 33, 33, 0.4);
     width: 100%;
-    position: fixed;
 }
 .site-header {
     border-bottom: 1px solid $grey-color-light;
@@ -329,6 +328,15 @@
         @include media-query($on-laptop) {
             font-size: 28px;
         }
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            background: url(/images/mine/fish.png);
+            background-size: cover;
+        }
     }
 
     h3 {
@@ -353,6 +361,11 @@
         width: 700px;
         height: 400px;
     }
+}
+
+/* 不显示目录上面的标题 */
+#toctitle h2 {
+    display: none;
 }
 
 .car-container {
