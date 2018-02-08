@@ -37,6 +37,14 @@ microtasks: process.nextTick, Promises, Object.observe, MutationObserver
 
 ![Web worker](/images/tech/web-workers.png)
 
-
+# 异步调用
+```javascript
+var index = 4;
+while (index--) {
+    setTimeout(function() { console.log(index); }, 0)
+    console.log(index);
+}
+// 3, 2, 1, 0, -1, -1, -1, -1
+```
 
 
