@@ -242,7 +242,7 @@
  * Page content
  */
 .page-content {
-    padding: 10px 0;
+    padding: 10px 10px;
 }
 
 .page-heading {
@@ -309,6 +309,7 @@
     margin-bottom: $spacing-unit;
     h1 {
         font-size: 28px;
+        color: #009926;
         @include media-query($on-laptop) {
             font-size: 32px;
         }
@@ -370,21 +371,44 @@
 
 .car-container {
     list-style-type: none;
+    overflow: hidden;
+    display: block;
 
     .car-item-container {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
         float: left;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         width: 220px;
         height: 250px;
-        padding: 10px;
         text-align: center;
         border: 1px solid #eee;
         border-radius: 5px;
-        img {
+        margin: 5px;
+        .car-bit {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 5px;
             width: 200px;
-            height: 200px;
+            height: 180px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    @include media-query($on-laptop) {
+        width: 80%;
+        margin: 0 auto;
+
+        .car-item-container {
+            width: 100%;
+
+            .car-bit {
+                width: 100%;
+            }
         }
     }
 }

@@ -10,8 +10,9 @@ permalink: /car/
         <ul class="car-container">
             {% for post in category.last %}
             <li class="car-item-container">
-                <img src="{{ post.picurl }}" />
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <img src="{{ post.picurl }}" class="car-bit"/>
+                <div><a style="height: 20px;" href="{{ post.url }}">{{ post.summary }}</a></div>
+                <a href="#">{{ post.title }}</a>
             </li>
             {% endfor %}
         </ul>
