@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76187ba1-db37-4fae-ae72-f385996839fe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/tech/2018-02-12-svg.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/tech/2017-03-03-network.md" afterPath="$PROJECT_DIR$/_posts/tech/2017-03-03-network.md" />
     </list>
     <ignored path="jjvein.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,28 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2015-08-22-js-object.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/tech/2015-08-22-js-object.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2015-08-07-js-event-driven.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/tech/2015-08-07-js-event-driven.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -71,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-03-03-network.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-03-03-network.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/tech/2017-03-03-network.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -84,8 +62,30 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="182">
-                <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-02-12-svg.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/tech/2018-02-12-svg.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="254">
+                <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -441,7 +441,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/tech/2016-08-31-react.createclass-versus-extends-react.component.md" />
         <option value="$PROJECT_DIR$/_includes/icon-menu.svg" />
         <option value="$PROJECT_DIR$/_includes/icon-menu.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -492,6 +491,7 @@
         <option value="$PROJECT_DIR$/_posts/car/2018-01-25-envision.md" />
         <option value="$PROJECT_DIR$/_posts/car/2017-12-05-haval.md" />
         <option value="$PROJECT_DIR$/_posts/tech/2017-03-03-network.md" />
+        <option value="$PROJECT_DIR$/_posts/tech/2018-02-12-svg.md" />
       </list>
     </option>
   </component>
@@ -501,8 +501,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1625" />
-    <option name="y" value="27" />
+    <option name="x" value="1635" />
+    <option name="y" value="63" />
     <option name="width" value="1379" />
     <option name="height" value="877" />
   </component>
@@ -955,15 +955,15 @@
       <workItem from="1517053662196" duration="56078000" />
       <workItem from="1517565105604" duration="49055000" />
       <workItem from="1518072122590" duration="5689000" />
-      <workItem from="1518116511721" duration="14665000" />
+      <workItem from="1518116511721" duration="19244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183108000" />
+    <option name="totallyTimeSpent" value="187687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1625" y="27" width="1379" height="877" extended-state="0" />
+    <frame x="1635" y="63" width="1379" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2371134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1000,24 +1000,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/tech/2017-05-26-js-react.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1116">
-            <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/menu-close.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1995,9 +1977,51 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="182">
-            <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/tech/2018-02-12-svg.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1518417240000" expanded="true" signature="921:1128" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="921:1133" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="932:1051" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="932:1061" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="932:1128" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="971:1049" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1225:1731" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1236:1583" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1282:1444" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1469:1571" placeholder="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="254">
+            <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+            <folding>
+              <marker date="1518417240000" expanded="true" signature="921:1128" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="921:1133" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="932:1051" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="932:1061" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="932:1128" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="971:1049" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1225:1731" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1236:1583" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1282:1444" placeholder="..." />
+              <marker date="1518417240000" expanded="true" signature="1469:1571" placeholder="..." />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
