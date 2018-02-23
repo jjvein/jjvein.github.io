@@ -136,8 +136,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="313">
-                <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -543,8 +543,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1492" />
-    <option name="y" value="-2" />
+    <option name="x" value="1523" />
+    <option name="y" value="-30" />
     <option name="width" value="1379" />
     <option name="height" value="877" />
   </component>
@@ -998,15 +998,15 @@
       <workItem from="1517565105604" duration="49055000" />
       <workItem from="1518072122590" duration="5689000" />
       <workItem from="1518116511721" duration="22807000" />
-      <workItem from="1519272167096" duration="2256000" />
+      <workItem from="1519272167096" duration="3107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193506000" />
+    <option name="totallyTimeSpent" value="194357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1492" y="-2" width="1379" height="877" extended-state="0" />
+    <frame x="1523" y="-30" width="1379" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20471281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1861,18 +1861,21 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1519355477355" expanded="true" signature="166:170" placeholder="/** @param {ListNode ...*/" />
-              <marker date="1519355477355" expanded="true" signature="166:293" placeholder="/** Definition for singly-linked list. ...*/" />
-              <marker date="1519355477355" expanded="true" signature="294:348" placeholder="/** @param {ListNode} head ...*/" />
-              <marker date="1519355477355" expanded="true" signature="379:651" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="515:631" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1177:1226" placeholder="/** @param {number} n ...*/" />
-              <marker date="1519355477355" expanded="true" signature="1253:1697" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1277:1438" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1320:1412" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1486:1583" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1632:1660" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1666:1695" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="194:198" placeholder="/** @param {ListNode ...*/" />
+              <marker date="1519381291239" expanded="true" signature="194:321" placeholder="/** Definition for singly-linked list. ...*/" />
+              <marker date="1519381291239" expanded="true" signature="322:376" placeholder="/** @param {ListNode} head ...*/" />
+              <marker date="1519381291239" expanded="true" signature="407:679" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="543:659" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1205:1254" placeholder="/** @param {number} n ...*/" />
+              <marker date="1519381291239" expanded="true" signature="1281:1725" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1305:1466" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1348:1440" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1514:1611" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1660:1688" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1694:1723" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1963:2338" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="2128:2336" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="2157:2309" placeholder="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1880,21 +1883,24 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="313">
-            <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             <folding>
-              <marker date="1519355477355" expanded="true" signature="166:170" placeholder="/** @param {ListNode ...*/" />
-              <marker date="1519355477355" expanded="true" signature="166:293" placeholder="/** Definition for singly-linked list. ...*/" />
-              <marker date="1519355477355" expanded="true" signature="294:348" placeholder="/** @param {ListNode} head ...*/" />
-              <marker date="1519355477355" expanded="true" signature="379:651" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="515:631" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1177:1226" placeholder="/** @param {number} n ...*/" />
-              <marker date="1519355477355" expanded="true" signature="1253:1697" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1277:1438" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1320:1412" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1486:1583" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1632:1660" placeholder="{...}" />
-              <marker date="1519355477355" expanded="true" signature="1666:1695" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="194:198" placeholder="/** @param {ListNode ...*/" />
+              <marker date="1519381291239" expanded="true" signature="194:321" placeholder="/** Definition for singly-linked list. ...*/" />
+              <marker date="1519381291239" expanded="true" signature="322:376" placeholder="/** @param {ListNode} head ...*/" />
+              <marker date="1519381291239" expanded="true" signature="407:679" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="543:659" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1205:1254" placeholder="/** @param {number} n ...*/" />
+              <marker date="1519381291239" expanded="true" signature="1281:1725" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1305:1466" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1348:1440" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1514:1611" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1660:1688" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1694:1723" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="1963:2338" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="2128:2336" placeholder="{...}" />
+              <marker date="1519381291239" expanded="true" signature="2157:2309" placeholder="{...}" />
             </folding>
           </first_editor>
           <second_editor />
