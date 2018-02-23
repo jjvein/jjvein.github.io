@@ -45,6 +45,8 @@
         transform: translateY(-50%);
         color: #eeeeee;
         font-size: 28px;
+        -webkit-font-smoothing: antialiased;
+        text-shadow: 0px 1px #000;
     }
 }
 
